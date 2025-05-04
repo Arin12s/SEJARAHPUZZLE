@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HISTORYPUZLE</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #0f0;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 3em;
+      animation: flicker 1.5s infinite;
+    }
+    a {
+      color: #0f0;
+      text-decoration: none;
+      font-size: 1.5em;
+      margin-top: 20px;
+      border: 2px solid #0f0;
+      padding: 10px 20px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    a:hover {
+      background-color: #0f0;
+      color: #000;
+    }
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+  </style>
+</head>
+<body>
+  <h1>HISTORYPUZLE</h1>
+  <a href="#">Mulai</a>
+</body>
+</html>
